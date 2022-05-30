@@ -1,4 +1,12 @@
-<?php 
+<?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
+
 $message_error = "style=\"border-color:red\"";
 $valide = False;
 if (!empty($_POST)) {
@@ -9,23 +17,41 @@ if (!empty($_POST)) {
 		filter_var($_POST['email'],FILTER_VALIDATE_EMAIL) &&
 		$_POST['message'] != "" ){
 			$valide = True;
-			$to = "matteobonneval19@gmail.com";
-			$subject = $_POST['subject'];
 			$message = $_POST['lastname'] . " " . $_POST['firstname'] . "\r\n";
 			$message .= "mail :" . $_POST['email'] . "\r\n";
 			$message .= wordwrap($_POST['message'],70,"\r\n");
 			$headers = 'From: webmaster@monportfolio.com' . "\r\n" .
-     					'Reply-To: webmaster@monportfolio.com' . "\r\n" .
+     					'Reply-To: contact@portfolio.fr' . "\r\n" .
      					'X-Mailer: PHP/' . phpversion();
-     		if (mail($to,$subject,$message,$headers)) {
-     			?>
-     			<script type="text/javascript">alert("Votre mail m'a été envoyé avec succés.");</script>
-     			<?php
-      		}else{
-     			?>
-     			<script type="text/javascript">alert("Un problème est survenue la mail n'a pas été envoyé...Réessayez.");</script>
-     			<?php
-     		}
+				
+			$mail = new PHPmailer();
+			$mail->SetLanguage('fr');
+			$mail->IsSMTP();
+			$mail->IsHTML(true);
+			$mail->SMTPDebug=0;
+			$mail->SMTPAuth=true;
+			$mail->SMTPSecure='ssl';
+			$mail->Host='smtp.gmail.com';
+			$mail->Port='465';
+			$mail->Username='matteobonneval19@gmail.com';
+			$mail->Password='lb7072sc';
+			$mail->From='contact@portfolio.fr';
+			$mail->AddAddress('matteobonneval19@gmail.com');
+			$mail->CharSet="utf-8"; 
+			$mail->Subject=$_POST['subject'];
+			$mail->Body=$message;
+			if(!$mail->Send()){ //Teste le return code de la fonction
+				?>
+				<script type="text/javascript">alert("Un problème est survenue la mail n'a pas été envoyé...Réessayez.");</script>
+				<?php
+			}
+			else{     
+				?>
+				<script type="text/javascript">alert("Votre mail a été envoyé avec succés.");</script>
+				<?php
+			}
+			$mail->SmtpClose();
+			unset($mail);
 	}
 }
 

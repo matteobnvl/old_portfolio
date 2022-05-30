@@ -44,7 +44,7 @@
                 <li class="bulle">
                     <img src="public/images/icons8-github.svg" class="logo-medias" title="Github">
                 </li>
-                <a class="bulle-link" href="https://github.com/matteobnvl" target="_blank ">GITHUB</a>
+                <a class="bulle-link" href="https://gitlab.com/matteobnvl" target="_blank ">GITLAB</a>
             </div>
         </ul>
 
