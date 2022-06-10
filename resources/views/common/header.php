@@ -42,7 +42,7 @@
 
             <div class="bulle-slide">
                 <li class="bulle">
-                    <img src="public/images/icons8-github.svg" class="logo-medias" title="Github">
+                    <img src="public/images/icons8-gitlab-48.png" class="logo-medias" title="GitLab">
                 </li>
                 <a class="bulle-link" href="https://gitlab.com/matteobnvl" target="_blank ">GITLAB</a>
             </div>
