@@ -22,64 +22,29 @@
 					<img onclick="ClassSchool()" src="public/images/close.svg">
 				</div>
 			</div>
-			<div class="carousel-wrapper">
-			    <span id="item-1"></span>
-			    <span id="item-2"></span>
-			    <span id="item-3"></span>
-			    <div class="carousel-item item-1">
-			      <div class="contain-carousel">
-			        <h2>RawEvents</h2>
-			        <div class="text">
-			            <p>texte</p>
-			            <div class="image"><img src="public/images/logo_rawevents.jpg" alt="logo RawEvents"></div>
-			        </div>
-			        <button onclick="ActiveClass()"> voir plus</button>
-			        <div id="active" class="contain-core">
-			            <button onclick="ActiveClass()">fermer</button>
-			        </div>
-			      </div>
-			      <a class="arrow arrow-prev" href="#item-3"></a>
-			      <a class="arrow arrow-next" href="#item-2"></a>
-			    </div>
-			    
-			    <div class="carousel-item item-2">
-			        <div class="contain-carousel" >
-			        	<h2>Titre</h2>  
-			            <div class="text">
-			            	<p>texte</p>
-			            	<div class="image">
-			            		<img src="" alt="logo RawEvents">
-			            	</div>
-			        	</div>
-			            <button onclick="ActiveClass2()">Voir plus</button>
-			        </div>
-			        <div id="active2" class="contain-core">
-			            <button onclick="ActiveClass2()">fermer</button>
-			        </div>
-			      <a class="arrow arrow-prev" href="#item-1"></a>
-			      <a class="arrow arrow-next" href="#item-3"></a>
-			    </div>
-			    
-			    <div class="carousel-item item-3">
-			        <div class="contain-carousel">  
-			            <h2>Titre</h2>
-			            <div class="text">
-			            	<p>texte</p>
-			            	<div class="image">
-			            		<img src="" alt="logo RawEvents">
-			            	</div>
-			        	</div>
-			            <button onclick="ActiveClass3()">Voir Plus</button>
-			        </div>
 
-			        <div id="active3" class="contain-core">
-			            <button onclick="ActiveClass3()">fermer</button>
-			        </div>
-			        
-			        <a class="arrow arrow-prev" href="#item-2"></a>
-			      <a class="arrow arrow-next" href="#item-1"></a>
-			    </div>
-			  </div>
+			<div class="school-project">
+				<div  class="box-project" onclick="afficheBox('school-box1','box-arrow-1')">
+					<img src="public/images/logo_rawevents.jpg" alt="">
+					<div id="box-arrow-1" class="box-arrow"></div>
+				</div>
+				<div id="school-box1" class="box-project-details"></div>
+
+
+				<div class="box-project" onclick="afficheBox('school-box2')"></div>
+				<div id="scool-box2" class="box-project-details"></div>
+
+
+				<div class="box-project" onclick="afficheBox('school-box3')"></div>
+				<div id="school-box3" class="box-project-details"></div>
+
+
+				<div class="box-project" onclick="afficheBox('school-box4')"></div>
+				<div id="school-box4" class="box-project-details"></div>
+
+
+			</div>
+			
 		</article>
 
 		<article id="perso" class="contain-perso">
@@ -135,4 +100,14 @@
             document.getElementById('active3').className = "contain-core";
         }
     }
+
+	function afficheBox(numero,box){
+		if(document.getElementById(numero).className == "box-project-details"){
+			document.getElementById(numero).className = "box-project-details active-box";
+			document.getElementById(box).className = "box-arrow-active";
+		}else{
+			document.getElementById(numero).className = "box-project-details";
+			document.getElementById(box).className = "box-arrow";
+		}
+	}
 </script>
