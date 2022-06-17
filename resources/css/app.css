@@ -1695,7 +1695,7 @@ form{
 @media screen and (max-width: 620px)
 {
 	.contain-bienvenue h1{
-		font-size: 0.6em;
+		font-size: 0.5em;
 	}
 
 	.bulle{
@@ -1721,15 +1721,13 @@ form{
 	}
 
 	.ligne{
-		width: 60vw;
+		width: 80vw;
 	}
 	
 	.contain-page1 p{
 		font-size: 1em;
 		text-align: justify;
 		margin: auto;
-		position: absolute;
-		bottom: 0;
 	}
 
 	.navigation-click nav li{
@@ -1749,6 +1747,7 @@ form{
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		flex-wrap: wrap;
 	}
 
 
@@ -1803,5 +1802,67 @@ form{
 
 	.bloc-entete h1{
 		padding-top: 100px;
+	}
+
+	.texte-presentation{
+		margin-bottom: 0;
+		padding-bottom: 50px;
+	}
+
+	.contain-contact{
+		height: auto;
+	}
+
+	.contain-form{
+		width: 100%;
+		height: auto;
+		margin-top: 100px;
+		padding-bottom: 25px;
+	}
+
+	.contain-form form{
+		width: 100%;
+		margin-top: 25px;
+	}
+
+	.contain-name{
+		flex-wrap: wrap;
+	}
+
+	.name{
+		width: auto;
+		margin-bottom: 15px;
+	}
+
+	.subject textarea{
+		height: 150px;
+	}
+
+	.contain-form form button{
+		position: relative;
+		width: auto;
+		height: auto;
+		padding: 10px;
+	}
+
+	.contain-bienvenue{
+		background-color: black;
+	}
+
+	.page1{
+		background:linear-gradient(180deg, rgba(0,0,0,1) 27%, rgba(0,0,0,1) 90%);
+	}
+
+	.contain-service-left{
+		width: 100%;
+	}
+
+	.contain-service-right{
+		width: 100%;
+	}
+
+	.service-rond{
+		width: 90px;
+		height: 90px;
 	}
 }
