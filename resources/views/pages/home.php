@@ -38,20 +38,20 @@
                         </span>
                     </div>
                     <div class="service-text">
-                        <h3>Titre service</h3>
-                        <p>Texte service</p>
+                        <h3>Création de projet</h3>
+                        <p>Site vitrine, corporate, évènementiel, application mobile.</p>
                     </div>
                 </div>
 
-                <div class="contain-service-right">
-                    <div class="service-text">
-                        <h3>Titre service</h3>
-                        <p>Texte service</p>
-                    </div>
+                <div class="contain-service-left">
                     <div class="service-rond">
                         <span class="material-symbols-outlined icon">
                             devices
                         </span>
+                    </div>
+                    <div class="service-text">
+                        <h3>Développements spécifiques</h3>
+                        <p>Des outils adaptés à votre coeur de métier, applications & solutions personnalisées.</p>
                     </div>
                 </div>
                 <div class="contain-service-left">
@@ -61,8 +61,8 @@
                         </span>
                     </div>
                     <div class="service-text">
-                        <h3>Titre service</h3>
-                        <p>Texte service</p>
+                        <h3>Responsive design</h3>
+                        <p>Compatible tous supports, tablette & application mobile.</p>
                     </div>
                 </div>         
         </div>    

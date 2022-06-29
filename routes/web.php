@@ -3,7 +3,6 @@
 use App\Route;
 
 Route::get(['/', 'App\Controllers\HomeController@index'])->name('Accueil');
-Route::get(['/contact', 'App\Controllers\ContactController@index'])->name('Contact');
 Route::get(['/MonProfil', 'App\Controllers\MonProfilController@index'])->name('Profil');
 Route::get(['/MesProjets','App\Controllers\MyWorkController@index'])->name('Work');
 Route::get(['/Temporaire','App\Controllers\TemporaireController@index'])->name('Temporaire');

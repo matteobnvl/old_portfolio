@@ -14,18 +14,32 @@
                             <a href="<?= route('Work')?>" class="a">Mes Projets</a>
                             <div class="barre-a"></div>
                         </li>
-                        <li>
-                            <a href="<?= route('Contact') ?>" class="a">Me Contacter</a>
-                            <div class="barre-a-long"></div>
-                        </li>
                     </ul>
                 </nav>
+            </div>
+            <div class="responsive-reseau">
+                    <li>
+                        <a href="https://www.instagram.com/matteo_bnvl/" target="_blank ">
+                            <img src="public/images/icons8-instagram-48.png" class="logo-medias" title="Instagram  ">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/matteo-bonneval-04080022a/" target="_blank ">
+                            <img src="public/images/icons8-linkedin.gif" class="logo-medias" title="Linkedin  ">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://gitlab.com/matteobnvl" target="_blank ">
+                            <img src="public/images/icons8-gitlab-48.png" class="logo-medias" title="GitLab">
+                        </a>
+                    </li>
+                    
             </div>
                 <button id="burger" class="burger" onclick="changeClass()">
                     <span></span>
                 </button>
         </section>
-        <ul class="medias">
+        <ul id="medias" class="medias">
             <div class="bulle-slide">
                 <li class="bulle">
                     <img src="public/images/icons8-instagram-48.png" class="logo-medias" title="Instagram  ">
@@ -49,8 +63,8 @@
         </ul>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-        <script type="text/javascript">
-              function changeClass(){
+<script type="text/javascript">
+    function changeClass(){
         if (document.getElementById('burger').className == "burger"){
             document.getElementById('burger').className = "burger-click";
             document.getElementById('navigation').className = "navigation-click";
@@ -63,14 +77,10 @@
 
     const medias = document.querySelectorAll('.bulle');
     window.addEventListener('load', () => {
+        const TL = gsap.timeline({paused: true});
+        TL.staggerFrom(medias, 1, {right: -200, ease: "power2.out"}, 0.3, '-=1');
+        TL.play();
+    })
 
-    const TL = gsap.timeline({paused: true});
 
-    TL.staggerFrom(medias, 1, {right: -200, ease: "power2.out"}, 0.3, '-=1');
-
-    
-    
-
-    TL.play();
-})
         </script>
