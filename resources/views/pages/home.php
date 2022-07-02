@@ -28,76 +28,79 @@
         
     </section>
 
-    <section id="explorer" class="page1">
+    <section class="page1">
         <div class="contain-page1">
-            <h2>mes services</h2>
-                <div class="contain-service-left">
-                    <div class="service-rond">
-                        <span class="material-symbols-outlined icon">
-                            computer
-                        </span>
-                    </div>
-                    <div class="service-text">
-                        <h3>Création de projet</h3>
-                        <p>Site vitrine, corporate, évènementiel, application mobile.</p>
-                    </div>
-                </div>
+            <div class="presentation-image">
 
-                <div class="contain-service-left">
-                    <div class="service-rond">
-                        <span class="material-symbols-outlined icon">
-                            devices
-                        </span>
+            </div>
+
+            <div class="presentation-text-right">
+                <p>
+                    <span style="font-size: 1.7em;">Hello</span>,<br><br>
+                    Je suis <span>Mattéo BONNEVAL</span>, 
+                    Développeur Web & Mobile, passionné par les nouvelles technologies et leurs 
+                    facultés à améliorer la productivité des entreprises.
+                </p>
+                <div class="information">
+                    <div>
+                        <p>
+                            <span>Nom</span> : <span style="opacity: .5; text-transform:none;">BONNEVAL Mattéo</span>
+                        </p>
                     </div>
-                    <div class="service-text">
-                        <h3>Développements spécifiques</h3>
-                        <p>Des outils adaptés à votre coeur de métier, applications & solutions personnalisées.</p>
+                    <div>
+                        <p>
+                            <span>étude</span> : <span style="opacity: .5; text-transform:none;">Developpeur FULLSTACK</span>
+                        </p>
                     </div>
                 </div>
-                <div class="contain-service-left">
-                    <div class="service-rond">
-                        <span class="material-symbols-outlined icon">
-                            display_settings
-                        </span>
+                <div class="information">
+                    <div>
+                        <p>
+                            <span>âge</span> : <span style="opacity: .5; text-transform:none;">18 ans</span>
+                        </p>
                     </div>
-                    <div class="service-text">
-                        <h3>Responsive design</h3>
-                        <p>Compatible tous supports, tablette & application mobile.</p>
+                    <div>
+                        <p>
+                        <span>Ville</span> : <span style="opacity: .5; text-transform:none;">Bordeaux(33000)</span>
+                        </p>
                     </div>
-                </div>         
-        </div>    
+                </div>
+                <div class="information">
+                    <div>
+                        <a href="#">
+                            <button>
+                                <i class="fa-solid fa-download"></i>
+                                télécharger mon cv
+                            </button>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?= route('Profil') ?>">
+                            <button>
+                                <i class="fa-solid fa-plus"></i>
+                                Voir plus
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
+    
     <section class="transition">
         <h2>développement web responsive</h2>
         <p>Compatible mobile, tablettes & PC</p>
-        
+
     </section>
     <section class="contain-computer">
         <div class="contain-computer-image">
-                <img src="https://www.mathieu-crevoulin.com/img/row_1.png">
+            <img src="https://www.mathieu-crevoulin.com/img/row_1.png">
         </div>
     </section>
 
-    <section class="page2">
-        <div class="contain-page1">
-            
-                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.</span> Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.</p>
-            
-        </div>
-
-        
-    </section>
+   
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 <script type="text/javascript">
 let bienvenue = document.getElementById('titre');

@@ -32,7 +32,6 @@ body::-webkit-scrollbar-track{
 .accueil{
 	height: 100vh;
 	position: relative;
-
 }
 
 a{
@@ -480,13 +479,15 @@ div{
 
 .page1{
 	width: 100%;
-	height: 120vh;
+	height: auto;
 	overflow-x: hidden;
 	position: relative;
 	background: rgb(0,0,0);
 	background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(24,24,24,1) 90%);
 	display: flex;
 	align-items: center;
+	padding-top: 200px;
+	padding-bottom: 100px;
 }
 .page2{
 	width: 100%;
@@ -499,14 +500,84 @@ div{
 	margin-top: 20%;
 }
 
+.presentation-image{
+	width: 350px;
+	height: 450px;
+	border: 1px solid white;
+}
+
+.presentation-text-right{
+	width: 50%;
+	height: auto;
+}
+.presentation-text-right span{
+	font-weight: bold;
+}
+
+.information{
+	font-size: 0.6em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.information div{
+	width: 60%;
+}
+
+.information span{
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.information button{
+	width: 70%;
+	height: 45px;
+	border: 2px solid white;
+	border-radius: 5px;
+	background-color: transparent;
+	color:white;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	transition: all .7s;
+	position: relative;
+}
+
+.information button:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+.information .fa-solid{
+	position: absolute;
+	left: 5%;
+	transition: all .7s;
+}
+
+.information button:hover .fa-solid{
+	transform: rotate(360deg);
+	color: black;
+}
+
 .contain-page1{
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.contain-page2{
 	width: 80%;
 	height: 80%;
 	background-color: transparent;
 	margin: auto;
 }
 
-.contain-page1 h2{
+.contain-page2 h2{
 	text-align: center;
 	color: white;
 	text-transform: uppercase;
@@ -524,6 +595,7 @@ div{
 	align-items: center;
 	text-align: left;
 }
+
 
 
 
@@ -562,6 +634,7 @@ div{
 
 .service-text h3{
 	font-size: 1.5em;
+	text-transform: uppercase;
 }
 
 .transition{

@@ -5,11 +5,6 @@ if (isset($_POST['code'])) {
     ?>
     <section class="secret">
 <canvas id="canvas"></canvas>
-<div class="typewriter-container">
-    <div class="typewriter">
-      <p>I LOVE YOU <3</p>
-    </div>
-</div>
 </section>
 <?php 
   }else{
