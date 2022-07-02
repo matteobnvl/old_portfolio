@@ -15,6 +15,11 @@
                             <div class="barre-a"></div>
                         </li>
                     </ul>
+                    <div class="contact-mail">
+                        <a  href="mailto:matteobonneval19@gmail.com">
+                            <button>Me contacter par mail</button>
+                        </a>
+                    </div>
                 </nav>
             </div>
             <div class="responsive-reseau">

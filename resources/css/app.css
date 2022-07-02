@@ -525,6 +525,8 @@ div{
 	text-align: left;
 }
 
+
+
 .service-rond{
 	width: 15%;
 	height: 100%;
@@ -534,14 +536,17 @@ div{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-color: transparent;
 }
-.service-rond:hover{
+.contain-service-left:hover .service-rond{
 	background-color: white;
 	cursor: default;
 }
-.service-rond:hover .icon{
+.contain-service-left:hover .icon{
 	color: black;
 }
+
+
 
 .service-text{
 	color: white;
@@ -635,6 +640,29 @@ div{
 	font-size: 1.2em;
 	text-transform: uppercase;
 
+}
+
+.navigation-click nav .contact-mail{
+	position: absolute;
+	bottom: -150%;
+	left: 0;
+}
+
+.navigation-click nav .contact-mail button{
+	width: 180px;
+	height: 35px;
+	border: 2px solid white;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	transition: all .7s;
+
+}
+
+.navigation-click nav .contact-mail button:hover{
+	color: black;
+	background-color: white;
+	cursor: pointer;
 }
 
 .barre-a{
