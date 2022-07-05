@@ -86,19 +86,89 @@
             </div>
         </div>
 
-    </section>
+</section>
 
     
-    <section class="transition">
-        <h2>développement web responsive</h2>
-        <p>Compatible mobile, tablettes & PC</p>
+<section class="transition">
+    <h2>développement web responsive</h2>
+    <p>Compatible mobile, tablettes & PC</p>
 
-    </section>
-    <section class="contain-computer">
-        <div class="contain-computer-image">
-            <img src="https://www.mathieu-crevoulin.com/img/row_1.png">
+</section>
+<section class="contain-computer">
+    <div class="contain-computer-image">
+        <img src="public/images/display_web.png">
+    </div>
+</section>
+
+<section class="contain-service">
+    <div class="title">
+        <h2>
+            <span class="transversal">mes</span>
+            <br>
+            <span class="droit">services</span>
+        </h2>
+    </div>
+    <div class="contain-box-service">
+        <div class="box-service">
+            <img class="image-service left" src="public/images/bg_service.png" alt="">
+            <div class="contain-service-rond">
+                <div class="service-rond">
+                    <i class="fa-solid fa-display"></i>
+                </div>
+            </div>
+            <div class="contain-service-text">
+                <h3>Création de projet</h3>
+                <p>
+                    Site Vitrine
+                </p>
+                <p>
+                    Application Web
+                </p>
+                <p>
+                    Site évènementiel
+                </p>
+            </div>
         </div>
-    </section>
+        <div class="box-service">
+            <img class="image-service center" src="public/images/bg_service.png" alt="">
+            <div class="contain-service-rond">
+                <div class="service-rond">
+                    <i class="fa-solid fa-mobile-button"></i>
+                </div>
+            </div>
+            <div class="contain-service-text visible">
+                <h3>Responsive Design</h3>
+                <p>
+                    Compatible tous supports
+                </p>
+                <p>
+                    Tablette
+                </p>
+                <p>
+                    Mobile
+                </p>
+            </div>
+            
+        </div>
+        <div class="box-service">
+            <img class="image-service right" src="public/images/bg_service.png" alt="">
+            <div class="contain-service-rond">
+                <div class="service-rond">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+            </div>
+            <div class="contain-service-text">
+                <h3>Développements spécifique</h3>
+                <p>
+                    Applications personnalisées
+                </p>
+                <p>
+                    Jeux vidéos
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
    
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>

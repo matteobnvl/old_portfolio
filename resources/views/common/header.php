@@ -7,12 +7,10 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="<?= route('Profil')?>" class="a">Mon Profil</a>
-                            <div class="barre-a"></div>
+                            <a href="<?= route('Profil')?>" class="barre-a">Mon Profil</a>
                         </li>
                         <li>
-                            <a href="<?= route('Work')?>" class="a">Mes Projets</a>
-                            <div class="barre-a"></div>
+                            <a href="<?= route('Work')?>" class="barre-a">Mes Projets</a>
                         </li>
                     </ul>
                     <div class="contact-mail">

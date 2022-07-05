@@ -596,46 +596,146 @@ div{
 	text-align: left;
 }
 
+.contain-service{
+	width: 80%;
+	margin-left: auto;
+}
 
+.title{
+	text-transform: uppercase;
+	color: white;
+	margin-top: 200px;
+	position: relative;
+}
+.title span{
+	opacity: .15;
+}
 
+.title .droit{
+	font-size: 7em;
+	margin-left: 5%;
 
-.service-rond{
-	width: 15%;
+}
+.title .transversal{
+	font-size: 2em;
+	position: absolute;
+	transform: rotate(-90deg);
+	left: 0;
+	bottom: 30%;
+
+}	
+
+.contain-box-service{
+	width: 80%;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+
+.box-service{
+	width: 250px;
+	height: 350px;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	background-color: #181818;
+	opacity: 1;
+	overflow: hidden;
+	position: relative;
+}
+
+.box-service .image-service{
+	position: absolute;
 	height: 100%;
-	border: 2px solid white;
-	border-radius: 60px;
-	transition: all 0.5s;
+	opacity: 0;
+	transition: all 1s;
+	z-index: 1;
+}
+.left{
+	left: 0;
+}
+
+.center{
+	left: -60%;
+	opacity: 1 !important;
+}
+.right{
+	right:0 ;
+}
+
+.box-service:hover .image-service{
+	opacity: 1;
+	transform: scale(0.98);
+}
+
+.contain-service-rond{
+	width: 100%;
+	height: 35%;
+	display: flex;
+	justify-content:center;
+	align-items: flex-end;
+	z-index: 2;
+}
+.service-rond{
+	width: 80px;
+	height: 80px;
+	border: 1px solid white;
+	border-radius: 999px;
+	z-index: 2;
+	transition: all 1s;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: transparent;
 }
-.contain-service-left:hover .service-rond{
+
+.service-rond .fa-solid{
+	color: white;
+	transform: scale(2);
+	transition: all 1s;
+}
+
+.box-service:hover .service-rond{
 	background-color: white;
-	cursor: default;
+	opacity:.5;
+
 }
-.contain-service-left:hover .icon{
+.box-service:hover .service-rond .fa-solid{
 	color: black;
 }
 
-
-
-.service-text{
+.contain-service-text{
+	width: 100%;
+	height: 60%;
+	z-index: 2;
 	color: white;
-	margin-left: 10%;
-	margin-right: 10%;
-	width: 60%;
+	text-align: center;
+	position: absolute;
+	opacity: 0;
+	transition: all 1s;
 }
 
-.service-text p{
-	font-size: 1em !important;
-	color: grey !important;
-}
-
-.service-text h3{
-	font-size: 1.5em;
+.contain-service-text h3{
 	text-transform: uppercase;
+	margin:20px 0px;
+	z-index: 2;
 }
+
+.contain-service-text p{
+	margin: 10px 0px;
+	
+}
+
+.visible{
+	opacity: 1;
+}
+
+.box-service:hover .contain-service-text{
+	opacity: 1;
+}
+
+
 
 .transition{
 	width: 100%;
@@ -667,13 +767,15 @@ div{
 	width: 100%;
 	height: 10vh;
 	position: absolute;
+	background-color: transparent;
+	margin-bottom: 50px;
 }
 
 .contain-computer-image{
 	width:700px;
 	height: 500px;
 	margin: auto;
-	transform: translateY(-90%);
+	transform: translateY(-90%) scale(1.2);
 }
 .contain-computer-image img{
 	width: 100%;
@@ -725,6 +827,7 @@ div{
 	width: 180px;
 	height: 35px;
 	border: 2px solid white;
+	border-radius: 5px;
 	background-color: transparent;
 	color: white;
 	text-transform: uppercase;
@@ -738,37 +841,31 @@ div{
 	cursor: pointer;
 }
 
-.barre-a{
-	opacity: 0;
-	width: 0%;
-	height: 1%;
-	border-radius:99999px ;
-	border: 1px solid transparent;
-	background-color: white;
+.barre-a {
+	display: inline-block;
+	position: relative;
+	color: white;
+  }
+  
+.barre-a:after {
+	content: '';
 	position: absolute;
-	transition: all 0.5s;
-}
-.barre-a-long{
-	opacity: 0;
-	width: 0%;
-	height: 1%;
-	border-radius:99999px ;
-	border: 1px solid transparent;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
 	background-color: white;
-	position: absolute;
-	transition: all 0.5s;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
 }
-li:hover
-.barre-a{
-	opacity: 1;
-	width: 8%;
+  
+.barre-a:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
 
-li:hover
-.barre-a-long{
-	opacity: 1;
-	width: 10%;
-}
+
 
 
 
