@@ -10,13 +10,13 @@ main{
 }
 body{
 	overflow-x: hidden;
-	background-color: #181818;
+
 }
 
 body::-webkit-scrollbar{
 	width: 10px;
 	height: 10px;
-	background-color: transparent;
+	background-color: #181818;
 }
 
 body::-webkit-scrollbar-thumb{
@@ -503,7 +503,7 @@ div{
 .presentation-image{
 	width: 350px;
 	height: 450px;
-	border: 1px solid white;
+	border: 1px solid transparent;
 }
 
 .presentation-text-right{
@@ -735,12 +735,139 @@ div{
 	opacity: 1;
 }
 
+.contain-solution{
+	width: 100%;
+	height: auto;
+	background-image: url('/portfolio/public/images/home_office.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.contain-solution:before{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 10vh;
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.contain-solution:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 10vh;
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.contain-solution .title{
+	margin-top: 50px;
+	margin-bottom:150px ;
+	position: relative;
+	top: -50%;
+	left: 18%;
+}
+.contain-solution .title span{
+	color: black;
+	opacity: .7;
+	text-transform: uppercase;
+}
+
+
+.contain-solution .title span:nth-child(1){
+	font-size: 2.5em;
+}
+.contain-solution .title span:nth-child(2){
+	position:absolute ;
+	transform:  translate(0%,100%);
+	font-weight: bold;
+}
+.contain-solution .title span:nth-child(4){
+	position: absolute;
+	transform: translate(40%,50%);
+	font-size: 1em;
+	font-weight: bold;
+}
+.contain-solution .title span:nth-child(5){
+	font-size: 3em;
+	position: absolute;
+	transform: translate(50%,0%);
+}
+
+.contain-box-attr{
+	width: 78%;
+	position: relative;
+	left: 15%;
+	top: 40%;
+	padding-bottom: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	flex-wrap: wrap;
+}
+
+.box-attr{
+	width: 230px;
+	height: 250px;
+	border: 1px solid transparent;
+	border-radius: 20px;
+	background-color: white;
+	opacity: .7;
+	transition: all .3s;
+	text-align: center;
+}
+
+.box-attr:hover{
+	opacity: .85;
+	transform: scale(1.01);
+}
+
+.box-attr div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box-attr .fa-solid{
+	color: black;
+	margin-top: 40px;
+	transform: scale(2.3);
+	margin-bottom: 40px;
+}
+
+.box-attr h3{
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.box-attr p{
+	font-size: 1.2em;
+	text-align: center;
+	margin: 25px 8px;
+}
+
+.box-attr-p{
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin-top: 40px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+
 
 
 .transition{
 	width: 100%;
 	height: 60vh;
-	background-image: url("https://cdn2.hubspot.net/hubfs/202339/canvas/images/parallax/Website-Design-Background.png");
+	background-image: url('/portfolio/public/images/Website-Design-Background.webp');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1389,10 +1516,11 @@ div{
 	height: 1px;
 	background-color: black;
 	display: block;
-	transform: rotate(40deg) translateX(-50%);
+	transform: rotate(40deg) translate(-50%,50%);
 	position: absolute;
 	top: 50%;
 	left: 40%;
+	transition: all .7s;
 }
 
 .box-arrow:after{
@@ -1401,18 +1529,41 @@ div{
 	height: 1px;
 	background-color: black;
 	display: block;
-	transform: rotate(-40deg) translateX(50%);
+	transform: rotate(-40deg) translate(50%,50%);
 	position: absolute;
 	right: 40%;
 	top: 50%;
+	transition: all .7s;
 }
 .box-project img{
 	width: 100%;
 	opacity: 0.3;
 }
 
-.box-arrow-active{
-	transform: rotate(-180deg);
+.box-arrow-active:before{
+	content: '';
+	width: 12px;
+	height: 1px;
+	background-color: black;
+	display: block;
+	transform: rotate(315deg) translate(-50%,-50%);
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transition: all .7s;
+}
+
+.box-arrow-active:after{
+	content: '';
+	width: 12px;
+	height: 1px;
+	background-color: black;
+	display: block;
+	transform: rotate(45deg) translate(55%,-100%);
+	position: absolute;
+	right: 40%;
+	top: 50%;
+	transition: all .7s;
 }
 
 .box-project-details{
@@ -2074,4 +2225,78 @@ form{
 		width: 90px;
 		height: 90px;
 	}
+}
+
+
+
+/* page error 404 */
+
+
+
+.page-404{ 
+	background: black; 
+	height: 100vh;
+	text-align: center;
+	overflow: hidden;
+}
+
+.four-zero-four-bg{
+	background-image: url('https://csshint.com/wp-content/uploads/2019/06/HTML-Funny-404-Pages.gif');
+	width: 100%;
+    height: 300px;
+    background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid transparent;
+	border-radius: 999px;
+	margin: auto;
+	opacity: .7;
+ }
+ 
+		 
+.link-404{			 
+	color: #fff;
+    padding: 10px 20px;
+    background: transparent;
+	border: 2px solid white;
+	border-radius: 5px;
+	color: white;
+    margin: 20px 0;
+    display: inline-block;
+	text-transform: uppercase;
+	transition: all .7s;
+}
+
+.link-404:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+}
+	
+.content-box-404{ 
+	margin-top: 50px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.content-box-404 h1{
+	font-size: 6em;
+}
+
+
+/* style footer */
+
+footer{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
 }

@@ -104,7 +104,7 @@
 	function afficheBox(numero,box){
 		if(document.getElementById(numero).className == "box-project-details"){
 			document.getElementById(numero).className = "box-project-details active-box";
-			document.getElementById(box).className = "box-arrow-active";
+			document.getElementById(box).className = "box-arrow box-arrow-active";
 		}else{
 			document.getElementById(numero).className = "box-project-details";
 			document.getElementById(box).className = "box-arrow";

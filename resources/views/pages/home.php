@@ -87,8 +87,6 @@
         </div>
 
 </section>
-
-    
 <section class="transition">
     <h2>développement web responsive</h2>
     <p>Compatible mobile, tablettes & PC</p>
@@ -99,7 +97,6 @@
         <img src="public/images/display_web.png">
     </div>
 </section>
-
 <section class="contain-service">
     <div class="title">
         <h2>
@@ -166,6 +163,54 @@
                     Jeux vidéos
                 </p>
             </div>
+        </div>
+    </div>
+</section>
+<section class="contain-solution">
+    <div class="title">
+        <h2>
+            <span>Pourquoi</span> <span>crééer</span><br><span>votre</span> <span>site ?</span>
+        </h2>
+    </div>
+    <div class="contain-box-attr">
+        <div class="box-attr">
+            <div>
+                <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <h3>entreprise</h3>
+            <p>
+                Difficile d’être compétitif sur le marché sans une présence digitale professionnelle et moderne.
+            </p>
+        </div>
+        <div class="box-attr">
+            <div>
+                <i class="fa-solid fa-list-check"></i>
+            </div>
+            <h3>projet</h3>
+            <p>
+                Portez votre projet à la vitesse et au niveau supérieur avec bien plus qu’une simple carte de visite, un portfolio en ligne.
+            </p>
+        </div>
+        <div class="box-attr">
+            <div>
+                <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+            <h3>e-commerce</h3>
+            <p>
+                Proposez votre marque à des consommateurs du monde entier et développez votre boutique en ligne.
+            </p>
+            
+        </div>
+        <div class="box-attr">
+            <div>
+                <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <h3>entreprise</h3>
+        </div>
+        <div class="box-attr-p">
+            <p>
+                Pour toute idée de projet n'hésitez pas à me contacter !
+            </p>
         </div>
     </div>
 </section>
