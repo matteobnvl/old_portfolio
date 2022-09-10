@@ -1,113 +1,64 @@
-<section class="contain-work">
-
-
-	<div class="contain-block">
-		<div class="block">
-			<img  src="public\images\code_bg2.jpg">
-			<div onclick="ClassSchool()" class="titre-block">
-				<h1>à l'école</h1>
-				<button>VOIR PLUS</button>
-			</div>
-		</div>
-		<div class="block">
-			<img style="width:200%;" src="public\images\code_bg1.jpg">
-			<div onclick="ClassPerso()" class="titre-block">
-				<h1>personnel</h1>
-				<button >VOIR PLUS</button>
-			</div>
-		</div>
-		<article id="school" class="contain-school">
-			<div class="entete">
-				<div class="close">
-					<img onclick="ClassSchool()" src="public/images/close.svg">
+<section class="contain-profil">
+	<div class="title">
+		<h1>
+			<span>Mes</span> <span>Projets</span>
+		</h1>
+	</div>	
+	<div class="contain-box-work">
+		<div class="box court">
+			<img src="public/images/rawevents/image_home.png" alt="">
+			<a href="<?= route('Detail')?>?projet=RawEvents">
+				<div class="box-hiden">
+					<h3>RawEvents</h3>
+					<p>Application web de gestion évènementiel.</p>
 				</div>
-			</div>
+			</a>
 
-			<div class="school-project">
-				<div  class="box-project" onclick="afficheBox('school-box1','box-arrow-1')">
-					<img src="public/images/logo_rawevents.jpg" alt="">
-					<div id="box-arrow-1" class="box-arrow"></div>
+		</div>
+		<div class="box long">
+			<img src="public/images/vtubergame/image_home_vt.png" alt="">
+			<a href="<?= route('Detail')?>?projet=V-Tuber Game">
+				<div class="box-hiden">
+					<h3>V-tuber game</h3>
+					<p>Application web de jeux vidéo.</p>
 				</div>
-				<div id="school-box1" class="box-project-details"></div>
-
-
-				<div class="box-project" onclick="afficheBox('school-box2')"></div>
-				<div id="scool-box2" class="box-project-details"></div>
-
-
-				<div class="box-project" onclick="afficheBox('school-box3')"></div>
-				<div id="school-box3" class="box-project-details"></div>
-
-
-				<div class="box-project" onclick="afficheBox('school-box4')"></div>
-				<div id="school-box4" class="box-project-details"></div>
-
-
-			</div>
+			</a>
 			
-		</article>
-
-		<article id="perso" class="contain-perso">
-			<div class="entete">
-				<div class="close">
-					<img onclick="ClassPerso()" src="public/images/close.svg">
+		</div>
+		<div class="box court">
+			<img src="public/images/tesmabot/page_home_tesma.png" alt="">
+				<a href="#">
+					<div class="box-hiden">
+						<h3>TESMABOT</h3>
+						<p>One page de présentation.</p>
+					</div>
+				</a>
+			
+			
+		</div>
+		<div class="box court">
+			<img src="public/images/blog/image_home_blog.png" alt="">
+			<a href="#">
+				<div class="box-hiden">
+					<h3>Les tableaux de nadine et alain</h3>
+					<p>Blog de peinture.</p>
 				</div>
-	
+			</a>
 
-			</div>
-		</article>
+		</div>
+		<div class="box long">
+			<img src="public/images/appdev/image_home_appdev.png" alt="">
+				<a href="#">
+					<div class="box-hiden">
+						<h3>AppGestion</h3>
+						<p>Application web de gestion d'étudiants.</p>
+					</div>
+				</a>
+			
+		</div>
+		<div class="box court">
+			
+		</div>
 	</div>
-
-	
 	
 </section>
-<script type="text/javascript">
-	function ClassSchool(){
-	if (document.getElementById('school').className == "contain-school"){
-            document.getElementById('school').className = "contain-school activate";
-        }else{
-            document.getElementById('school').className = "contain-school";
-        }
-    }
-
-    function ClassPerso(){
-	if (document.getElementById('perso').className == "contain-perso"){
-            document.getElementById('perso').className = "contain-perso activate";
-        }else{
-            document.getElementById('perso').className = "contain-perso";
-        }
-    }
-    function ActiveClass(){
-        if(document.getElementById('active').className == "contain-core"){
-            document.getElementById('active').className = "contain-core contain-active";
-        }else{
-            document.getElementById('active').className = "contain-core";
-        }
-    }
-
-    function ActiveClass2(){
-        if(document.getElementById('active2').className == "contain-core"){
-            document.getElementById('active2').className = "contain-core contain-active";
-        }else{
-            document.getElementById('active2').className = "contain-core";
-        }
-    }
-
-    function ActiveClass3(){
-        if(document.getElementById('active3').className == "contain-core"){
-            document.getElementById('active3').className = "contain-core contain-active";
-        }else{
-            document.getElementById('active3').className = "contain-core";
-        }
-    }
-
-	function afficheBox(numero,box){
-		if(document.getElementById(numero).className == "box-project-details"){
-			document.getElementById(numero).className = "box-project-details active-box";
-			document.getElementById(box).className = "box-arrow box-arrow-active";
-		}else{
-			document.getElementById(numero).className = "box-project-details";
-			document.getElementById(box).className = "box-arrow";
-		}
-	}
-</script>
