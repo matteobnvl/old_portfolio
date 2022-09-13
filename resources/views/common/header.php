@@ -18,6 +18,12 @@
                             <button>Me contacter par mail</button>
                         </a>
                     </div>
+                    <div class="reseaux">
+                        <a href="https://www.instagram.com/matteo_bnvl/"><i style="margin-right: 10px;" class="fab fa-instagram"></i>Instagram</a>
+                        <a href="https://www.linkedin.com/in/matteo-bonneval-04080022a/"><i style="margin-right: 10px;" class="fab fa-linkedin"></i>Linkedin</a>
+                        <a href=""><i style="margin-right: 10px;" class="fab fa-github"></i>Github</a>
+                        <a href="">Malt</a>
+                    </div>
                 </nav>
             </div>
             <div class="responsive-reseau">

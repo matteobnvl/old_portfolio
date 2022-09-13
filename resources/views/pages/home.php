@@ -214,9 +214,6 @@
         </div>
     </div>
 </section>
-<footer>
-    <a href="http://copyright.be" target="_blank">Copyright © 2022 matteo-bonneval.fr - Tous droits réservés</a>
-</footer>
 
    
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
