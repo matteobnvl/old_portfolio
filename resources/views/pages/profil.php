@@ -11,7 +11,14 @@
 		</div>
 		<div class="texte-profil">
 			<p>
-				A venir
+			<span style="text-transform: capitalize;">étudiant</span> en développeur <span class="bolder">FullStack à l’EPSI de Bordeaux</span>, 
+			je suis passionné par le développement web 
+			et tous ce qu’il englobe. <br><br><span style="text-transform: capitalize;">à</span> mes heures perdues, j’adore développer de petit projet 
+			( que vous pouvez découvrir dans la partie <span class="bolder"><a href="<?= route('Work') ?>">mes projets</a></span> ).
+			Très sérieux dans mon travail, j’aime quand le client est content et satisfait de la solution 
+			qui lui à été proposé. <br><br> Pour toute idée ou projet en relation avec mes compétences n’hésitez 
+			pas à venir m’en parler, soit par mail soit sur mes réseaux. <br><br> 
+			<span class="bolder">Nous trouverons ensemble une solution à votre projet/idée !</span>
 			</p>
 		</div>
 	</div>

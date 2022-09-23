@@ -28,7 +28,7 @@
         
     </section>
 
-    <section class="page1">
+<section class="page1">
         <div class="contain-page1">
             <div class="presentation-image">
 
@@ -105,63 +105,65 @@
             <span class="droit">services</span>
         </h2>
     </div>
-    <div class="contain-box-service">
-        <div class="box-service">
-            <img class="image-service left" src="public/images/bg_service.png" alt="">
-            <div class="contain-service-rond">
-                <div class="service-rond">
-                    <i class="fa-solid fa-display"></i>
+    <div class="over-scroll">
+        <div class="contain-box-service">
+            <div class="box-service">
+                <img class="image-service left" src="public/images/bg_service.png" alt="">
+                <div class="contain-service-rond">
+                    <div class="service-rond">
+                        <i class="fa-solid fa-display"></i>
+                    </div>
+                </div>
+                <div class="contain-service-text">
+                    <h3>Création de projet</h3>
+                    <p>
+                        Site Vitrine
+                    </p>
+                    <p>
+                        Application Web
+                    </p>
+                    <p>
+                        Site évènementiel
+                    </p>
                 </div>
             </div>
-            <div class="contain-service-text">
-                <h3>Création de projet</h3>
-                <p>
-                    Site Vitrine
-                </p>
-                <p>
-                    Application Web
-                </p>
-                <p>
-                    Site évènementiel
-                </p>
-            </div>
-        </div>
-        <div class="box-service">
-            <img class="image-service center" src="public/images/bg_service.png" alt="">
-            <div class="contain-service-rond">
-                <div class="service-rond">
-                    <i class="fa-solid fa-mobile-button"></i>
+            <div class="box-service">
+                <img class="image-service center" src="public/images/bg_service.png" alt="">
+                <div class="contain-service-rond">
+                    <div class="service-rond">
+                        <i class="fa-solid fa-mobile-button"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="contain-service-text visible">
-                <h3>Responsive Design</h3>
-                <p>
-                    Compatible tous supports
-                </p>
-                <p>
-                    Tablette
-                </p>
-                <p>
-                    Mobile
-                </p>
-            </div>
-            
-        </div>
-        <div class="box-service">
-            <img class="image-service right" src="public/images/bg_service.png" alt="">
-            <div class="contain-service-rond">
-                <div class="service-rond">
-                    <i class="fa-solid fa-code"></i>
+                <div class="contain-service-text visible">
+                    <h3>Responsive Design</h3>
+                    <p>
+                        Compatible tous supports
+                    </p>
+                    <p>
+                        Tablette
+                    </p>
+                    <p>
+                        Mobile
+                    </p>
                 </div>
+                
             </div>
-            <div class="contain-service-text">
-                <h3>Développements spécifique</h3>
-                <p>
-                    Applications personnalisées
-                </p>
-                <p>
-                    Jeux vidéos
-                </p>
+            <div class="box-service">
+                <img class="image-service right" src="public/images/bg_service.png" alt="">
+                <div class="contain-service-rond">
+                    <div class="service-rond">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                </div>
+                <div class="contain-service-text">
+                    <h3>Développements spécifique</h3>
+                    <p>
+                        Applications personnalisées
+                    </p>
+                    <p>
+                        Jeux vidéos
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -172,50 +174,52 @@
             <span>Pourquoi</span> <span>crééer</span><br><span>votre</span> <span>site ?</span>
         </h2>
     </div>
-    <div class="contain-box-attr">
-        <div class="box-attr">
-            <div>
-                <i class="fa-solid fa-briefcase"></i>
+    <div class="over-scroll">
+        <div class="contain-box-attr">
+            <div class="box-attr">
+                <div>
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <h3>entreprise</h3>
+                <p>
+                    Difficile d’être compétitif sur le marché sans une présence digitale professionnelle et moderne.
+                </p>
             </div>
-            <h3>entreprise</h3>
-            <p>
-                Difficile d’être compétitif sur le marché sans une présence digitale professionnelle et moderne.
-            </p>
-        </div>
-        <div class="box-attr">
-            <div>
-                <i class="fa-solid fa-list-check"></i>
+            <div class="box-attr">
+                <div>
+                    <i class="fa-solid fa-list-check"></i>
+                </div>
+                <h3>projet</h3>
+                <p>
+                    Portez votre projet à la vitesse et au niveau supérieur avec bien plus qu’une simple carte de visite, un portfolio en ligne.
+                </p>
             </div>
-            <h3>projet</h3>
-            <p>
-                Portez votre projet à la vitesse et au niveau supérieur avec bien plus qu’une simple carte de visite, un portfolio en ligne.
-            </p>
-        </div>
-        <div class="box-attr">
-            <div>
-                <i class="fa-solid fa-basket-shopping"></i>
+            <div class="box-attr">
+                <div>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </div>
+                <h3>e-commerce</h3>
+                <p>
+                    Proposez votre marque à des consommateurs du monde entier et développez votre boutique en ligne.
+                </p>
+                
             </div>
-            <h3>e-commerce</h3>
-            <p>
-                Proposez votre marque à des consommateurs du monde entier et développez votre boutique en ligne.
-            </p>
-            
-        </div>
-        <div class="box-attr">
-            <div>
-                <i class="fa-solid fa-briefcase"></i>
+            <div class="box-attr">
+                <div>
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <h3>entreprise</h3>
             </div>
-            <h3>entreprise</h3>
-        </div>
-        <div class="box-attr-p">
-            <p>
-                Pour toute idée de projet n'hésitez pas à me contacter !
-            </p>
+            <div class="box-attr-p">
+                <p>
+                    Pour toute idée de projet n'hésitez pas à me contacter !
+                </p>
+            </div>
         </div>
     </div>
 </section>
 
-   
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 <script type="text/javascript">
 let bienvenue = document.getElementById('titre');

@@ -1,4 +1,4 @@
-<section class="contain-profil">
+<section class="contain-profil mg-t">
     <a href="<?= route('Work') ?>" class="barre-a retour"><i style="margin-right: 15px;" class="fas fa-arrow-left"></i>retour</a>
     <div class="box-title">
         <h2>

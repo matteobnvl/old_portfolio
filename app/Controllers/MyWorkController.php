@@ -10,8 +10,10 @@ class MyWorkController extends Controller
     public function index()
     {
         $data_json = file_get_contents('resources/js/data.json');
+        $pages = 'Work';
         //return view('pages.home', ['users' => $users]);
-        return view('pages.work', compact('data_json'));
+        return view('pages.work', compact('data_json','pages'));
 
     }
+
 }

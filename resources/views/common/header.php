@@ -7,10 +7,13 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="<?= route('Profil')?>" class="barre-a">Mon Profil</a>
+                            <a class="barre-a <?php if($pages =='Home'):?>a-active<?php endif ?>" href="<?= route('Accueil') ?>">Accueil</a>
                         </li>
                         <li>
-                            <a href="<?= route('Work')?>" class="barre-a">Mes Projets</a>
+                            <a href="<?= route('Profil')?>" class="barre-a <?php if($pages =='MonProfil'):?>a-active<?php endif ?>">Mon Profil</a>
+                        </li>
+                        <li>
+                            <a href="<?= route('Work')?>" class="barre-a <?php if($pages =='Work'):?>a-active<?php endif ?>">Mes Projets</a>
                         </li>
                     </ul>
                     <div class="contact-mail">
@@ -25,24 +28,6 @@
                         <a href="">Malt</a>
                     </div>
                 </nav>
-            </div>
-            <div class="responsive-reseau">
-                    <li>
-                        <a href="https://www.instagram.com/matteo_bnvl/" target="_blank ">
-                            <img src="public/images/icons8-instagram-48.png" class="logo-medias" title="Instagram  ">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/matteo-bonneval-04080022a/" target="_blank ">
-                            <img src="public/images/icons8-linkedin.gif" class="logo-medias" title="Linkedin  ">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://gitlab.com/matteobnvl" target="_blank ">
-                            <img src="public/images/icons8-gitlab-48.png" class="logo-medias" title="GitLab">
-                        </a>
-                    </li>
-                    
             </div>
                 <button id="burger" class="burger" onclick="changeClass()">
                     <span></span>
@@ -65,9 +50,9 @@
 
             <div class="bulle-slide">
                 <li class="bulle">
-                    <img src="public/images/icons8-gitlab-48.png" class="logo-medias" title="GitLab">
+                    <img src="public/images/icons8-github.svg" class="logo-medias" title="GitLab">
                 </li>
-                <a class="bulle-link" href="https://gitlab.com/matteobnvl" target="_blank ">GITLAB</a>
+                <a class="bulle-link" href="https://github.com/matteobnvl" target="_blank ">GITHUB</a>
             </div>
         </ul>
 

@@ -27,7 +27,7 @@
 		</div>
 		<div class="box court">
 			<img src="public/images/tesmabot/page_home_tesma.png" alt="">
-				<a href="#">
+				<a href="<?= route('Detail')?>?projet=Tesma Bot">
 					<div class="box-hiden">
 						<h3>TESMABOT</h3>
 						<p>One page de présentation.</p>
@@ -38,7 +38,7 @@
 		</div>
 		<div class="box court">
 			<img src="public/images/blog/image_home_blog.png" alt="">
-			<a href="#">
+			<a href="<?= route('Detail')?>?projet=Les tableaux de nadine et alain">
 				<div class="box-hiden">
 					<h3>Les tableaux de nadine et alain</h3>
 					<p>Blog de peinture.</p>
@@ -48,7 +48,7 @@
 		</div>
 		<div class="box long">
 			<img src="public/images/appdev/image_home_appdev.png" alt="">
-				<a href="#">
+				<a href="<?= route('Detail')?>?projet=Application de gestion">
 					<div class="box-hiden">
 						<h3>AppGestion</h3>
 						<p>Application web de gestion d'étudiants.</p>

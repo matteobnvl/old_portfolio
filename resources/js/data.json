@@ -1,10 +1,9 @@
 {
     "projet":[
         {
-            "id" : "1",
             "title" : "RawEvents",
             "date" : "Novembre 2021",
-            "description" : "Premier projet de ma première année à epsi.",
+            "description" : "Premier projet de ma première année à epsi. Il s'agissait de développer une AppWeb qui permet de gérer des évènements de soirées, festival, ... Avec en bonus un site vitrine qui montre tous les évènements proposés par le site.",
             "github" : "",
             "url" : "",
             "langage" : [
@@ -65,7 +64,7 @@
             "id" : "2",
             "title" : "V-Tuber Game",
             "date" : "Année 2021-2022",
-            "description" : "",
+            "description" : "Projet Open Innov 2021-2022, ici il s'agit d'une application web qui permet d'incarner un V-Tuber, on peut jouer avec mais aussi le personnaliser. Le projet n'a été réalisé seulement à moitié.",
             "github" : "",
             "url" : "",
             "langage" : [
@@ -94,6 +93,161 @@
                 }
             ]
         
+        },
+        {
+            "title" : "Tesma Bot",
+            "date" : "Septembre 2022",
+            "description" : "Workshop 2022, le sujet était de mettre en place une solution pour détecter les FakesNews. Ici la one page de présentation du Bot détecteur des intox/infox.",
+            "github" : "",
+            "url" : "",
+            "langage" : [
+                {
+                "nom_langage" : "django",
+                "image_langage" : "logo_django.png"
+                },
+                {
+                    "nom_langage" : "html",
+                    "image_langage" : "logo_html.png"
+                },
+                {
+                    "nom_langage" : "css",
+                    "image_langage" : "logo_css.png"
+                }
+            ],
+            "image":[
+                {
+                    "image" : "tesmabot/page_home_tesma.png"
+                }
+                
+            ]
+        },
+        {
+            "title" : "Les tableaux de nadine et alain",
+            "date" : "Aout 2022",
+            "description" : "Application web de présentation de tableaux, avec une partie back-end du site pour pouvoir ajouter, modifier ou supprimer les tableaux sur le site.",
+            "github" : "",
+            "url" : "http://testpythondjango.pythonanywhere.com",
+            "langage" : [
+                {
+                "nom_langage" : "django",
+                "image_langage" : "logo_django.png"
+                },
+                {
+                    "nom_langage" : "html",
+                    "image_langage" : "logo_html.png"
+                },
+                {
+                    "nom_langage" : "css",
+                    "image_langage" : "logo_css.png"
+                },
+                {
+                    "nom_langage":"js",
+                    "image_langage":"icons8-javascript.svg"
+                }
+            ],
+            "image":[
+                {
+                    "image" : "blog/image_home_blog.png"
+                },
+                {
+                    "image" : "rawevents/image_home_2.png"
+                },
+                {
+                    "image" : "rawevents/image_home_3.png"
+                },
+                {
+                    "image" : "rawevents/image_read_evenement.png"
+                },
+                {
+                    "image" : "rawevents/image_evenement_1.png"
+                },
+                {
+                    "image" : "rawevents/image_connexion.png"
+                },
+                {
+                    "image" : "rawevents/image_board.png"
+                },
+                {
+                    "image" : "rawevents/image_read_board.png"
+                },
+                {
+                    "image" : "rawevents/image_update_board.png"
+                },
+                {
+                    "image" : "rawevents/image_create.png"
+                },
+                {
+                    "image" : "rawevents/image_update_compte.png"
+                },
+                {
+                    "image" : "rawevents/image_update_compte_2.png"
+                }
+                
+            ]
+        },{
+            "title" : "Application de gestion",
+            "date" : "juin 2022",
+            "description" : "Dernier projet de ma première année à EPSI. On devait réaliser une application, avec le framework django, de gestion de profil, d'étudiants ou de d'utilisateur. On a réalisé une app qui permet d'ajouter, de modifier ou supprimer des élèves, avec un système de classe et de niveaux",
+            "github" : "",
+            "url" : "",
+            "langage" : [
+                {
+                "nom_langage" : "django",
+                "image_langage" : "logo_django.png"
+                },
+                {
+                    "nom_langage" : "html",
+                    "image_langage" : "logo_html.png"
+                },
+                {
+                    "nom_langage" : "css",
+                    "image_langage" : "logo_css.png"
+                }
+                ,{
+                    "nom_langage" : "js",
+                    "image_langage":"icons8-javascript.svg"
+                }
+            ],
+            "image":[
+                {
+                    "image" : "appdev/image_home_appdev.png"
+                },
+                {
+                    "image" : "rawevents/image_home_2.png"
+                },
+                {
+                    "image" : "rawevents/image_home_3.png"
+                },
+                {
+                    "image" : "rawevents/image_read_evenement.png"
+                },
+                {
+                    "image" : "rawevents/image_evenement_1.png"
+                },
+                {
+                    "image" : "rawevents/image_connexion.png"
+                },
+                {
+                    "image" : "rawevents/image_board.png"
+                },
+                {
+                    "image" : "rawevents/image_read_board.png"
+                },
+                {
+                    "image" : "rawevents/image_update_board.png"
+                },
+                {
+                    "image" : "rawevents/image_create.png"
+                },
+                {
+                    "image" : "rawevents/image_update_compte.png"
+                },
+                {
+                    "image" : "rawevents/image_update_compte_2.png"
+                }
+                
+            ]
         }
+        
     ]
 }
