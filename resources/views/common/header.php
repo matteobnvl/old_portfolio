@@ -57,24 +57,3 @@
         </ul>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-<script type="text/javascript">
-    function changeClass(){
-        if (document.getElementById('burger').className == "burger"){
-            document.getElementById('burger').className = "burger-click";
-            document.getElementById('navigation').className = "navigation-click";
-        }else{
-            document.getElementById('burger').className = "burger";
-            document.getElementById('navigation').className = "navigation";
-        }
-    }
-
-
-    const medias = document.querySelectorAll('.bulle');
-    window.addEventListener('load', () => {
-        const TL = gsap.timeline({paused: true});
-        TL.staggerFrom(medias, 1, {right: -200, ease: "power2.out"}, 0.3, '-=1');
-        TL.play();
-    })
-
-
-        </script>

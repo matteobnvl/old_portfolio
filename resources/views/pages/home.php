@@ -204,88 +204,14 @@
                 </p>
                 
             </div>
-            <div class="box-attr">
-                <div>
-                    <i class="fa-solid fa-briefcase"></i>
-                </div>
-                <h3>entreprise</h3>
-            </div>
-            <div class="box-attr-p">
-                <p>
-                    Pour toute idée de projet n'hésitez pas à me contacter !
-                </p>
-            </div>
         </div>
     </div>
+    <div class="box-attr-p">
+            <p>
+                Pour toute idée de projet n'hésitez pas à me contacter !
+            </p>
+        </div>
 </section>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-<script type="text/javascript">
-let bienvenue = document.getElementById('titre');
-let btn = document.getElementById('btn');
-
-window.addEventListener('scroll',function(){
-    let value = window.scrollY;
-    bienvenue.style.marginRight = value  * 4 + 'px';
-    bienvenue.style.marginTop = value  * 1.5 + 'px';
-    ligne.style.marginLeft = value  * 4 + 'px';
-    ligne.style.marginTop = value  * 1.5 + 'px';
-    btn.style.marginTop = value * 1.5 + 'px';
-})
-
-const allLetters = document.querySelectorAll('.contain-bienvenue span');
-const ligne = document.querySelector('.ligne');
-
-const TLLetters = gsap.timeline();
-
-TLLetters
-.from(ligne, {width: '0%', opacity: 0, duration: 0.7, ease: "power1.in"})
-.from(allLetters, {opacity:0, stagger: 0.1, ease: "power2.out"})
-
-
-
-const images = document.querySelectorAll(".contain-computer-image img")
-const texts = document.querySelectorAll(".contain-page1 h2")
-
-let options = {
-  // root: null,
-  rootMargin: "-10% 0px",
-  threshold: 0.4
-}
-
-function handleIntersect(entries){
-  console.log(entries);
-
-  entries.forEach(entry => {
-    if(entry.isIntersecting){
-      entry.target.style.opacity = 1;
-      entry.target.className = "transparent scale-up-bottom";
-    }
-  })
-}
-
-function textIntersect(entries){
-    console.log(entries);
-
-    entries.forEach(entry =>{
-        if(entry.isIntersecting){
-            entry.target.style.opacity = 1;
-            entry.target.className = "tracking-in-contract-bck-bottom"
-        }
-    })
-}
-
-const observer = new IntersectionObserver(handleIntersect, options)
-const observer2 = new IntersectionObserver(textIntersect,options)
-
-images.forEach(image => {
-  observer.observe(image)
-})
-
-texts.forEach(text =>{
-    observer2.observe(text)
-})
-
-
-</script>

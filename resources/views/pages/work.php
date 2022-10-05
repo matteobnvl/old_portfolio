@@ -56,9 +56,6 @@
 				</a>
 			
 		</div>
-		<div class="box court">
-			
-		</div>
 	</div>
 	
 </section>

@@ -4,7 +4,7 @@
         <h2>
             <?php echo $data_projet['title']; ?> 
             <?php if($data_projet['github'] != ""): ?><a href="#" title="voir projet sur github" target="_blank "><i style="color: white;font-size:20px;" class="fa-brands fa-github"></i></a> <?php endif ?>
-                <?php if($data_projet['url'] != ""): ?><a href="#" title="voir site" target="_blank "><i style="color: white;font-size:20px;" class="fas fa-link"></i></a> <?php endif ?>
+                <?php if($data_projet['url'] != ""): ?><a href="<?= $data_projet['url'] ?>" title="voir site" target="_blank "><i style="color: white;font-size:20px;" class="fas fa-link"></i></a> <?php endif ?>
         </h2>
     </div>
     <div class="contain-work">
@@ -47,32 +47,3 @@
         </div>
     </div>
 </section>
-
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>

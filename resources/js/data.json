@@ -83,13 +83,25 @@
             ],
             "image" : [
                 {
-                    "image" : "vtubergame/image_home.png"
+                    "image" : "vtubergame/image_home_vt.png"
                 },
                 {
-                    "image" : "vtubergame/image_home_2.png"
+                    "image" : "vtubergame/image_inscription.png"
                 },
                 {
-                    "image" : "vtubergame/image_home_3.png"
+                    "image" : "vtubergame/image_connexion.png"
+                },
+                {
+                    "image" : "vtubergame/image_dashboard.png"
+                },
+                {
+                    "image" : "vtubergame/image_perso.png"
+                },
+                {
+                    "image" : "vtubergame/image_jeux.png"
+                },
+                {
+                    "image" : "vtubergame/image_settings.png"
                 }
             ]
         
@@ -99,11 +111,11 @@
             "date" : "Septembre 2022",
             "description" : "Workshop 2022, le sujet était de mettre en place une solution pour détecter les FakesNews. Ici la one page de présentation du Bot détecteur des intox/infox.",
             "github" : "",
-            "url" : "",
+            "url" : "https://matteodevepsi.pythonanywhere.com/",
             "langage" : [
                 {
                 "nom_langage" : "django",
-                "image_langage" : "logo_django.png"
+                "image_langage" : "logo_django.jpg"
                 },
                 {
                     "nom_langage" : "html",
@@ -130,7 +142,7 @@
             "langage" : [
                 {
                 "nom_langage" : "django",
-                "image_langage" : "logo_django.png"
+                "image_langage" : "logo_django.jpg"
                 },
                 {
                     "nom_langage" : "html",
@@ -150,41 +162,27 @@
                     "image" : "blog/image_home_blog.png"
                 },
                 {
-                    "image" : "rawevents/image_home_2.png"
+                    "image" : "blog/image_home_2.png"
                 },
                 {
-                    "image" : "rawevents/image_home_3.png"
+                    "image" : "blog/image_liste_tableau.png"
                 },
                 {
-                    "image" : "rawevents/image_read_evenement.png"
+                    "image" : "blog/image_liste_tableau_2.png"
                 },
                 {
-                    "image" : "rawevents/image_evenement_1.png"
+                    "image" : "blog/image_tableau.png"
                 },
                 {
-                    "image" : "rawevents/image_connexion.png"
+                    "image" : "blog/image_tableau_2.png"
                 },
                 {
-                    "image" : "rawevents/image_board.png"
-                },
-                {
-                    "image" : "rawevents/image_read_board.png"
-                },
-                {
-                    "image" : "rawevents/image_update_board.png"
-                },
-                {
-                    "image" : "rawevents/image_create.png"
-                },
-                {
-                    "image" : "rawevents/image_update_compte.png"
-                },
-                {
-                    "image" : "rawevents/image_update_compte_2.png"
+                    "image" : "blog/image_admin.png"
                 }
                 
             ]
-        },{
+        },
+        {
             "title" : "Application de gestion",
             "date" : "juin 2022",
             "description" : "Dernier projet de ma première année à EPSI. On devait réaliser une application, avec le framework django, de gestion de profil, d'étudiants ou de d'utilisateur. On a réalisé une app qui permet d'ajouter, de modifier ou supprimer des élèves, avec un système de classe et de niveaux",
@@ -193,7 +191,7 @@
             "langage" : [
                 {
                 "nom_langage" : "django",
-                "image_langage" : "logo_django.png"
+                "image_langage" : "logo_django.jpg"
                 },
                 {
                     "nom_langage" : "html",
@@ -213,37 +211,22 @@
                     "image" : "appdev/image_home_appdev.png"
                 },
                 {
-                    "image" : "rawevents/image_home_2.png"
+                    "image" : "appdev/image_home2.png"
                 },
                 {
-                    "image" : "rawevents/image_home_3.png"
+                    "image" : "appdev/image_detail_classe.png"
                 },
                 {
-                    "image" : "rawevents/image_read_evenement.png"
+                    "image" : "appdev/image_create_student.png"
                 },
                 {
-                    "image" : "rawevents/image_evenement_1.png"
+                    "image" : "appdev/image_read_student.png"
                 },
                 {
-                    "image" : "rawevents/image_connexion.png"
+                    "image" : "appdev/image_read_detail_student.png"
                 },
                 {
-                    "image" : "rawevents/image_board.png"
-                },
-                {
-                    "image" : "rawevents/image_read_board.png"
-                },
-                {
-                    "image" : "rawevents/image_update_board.png"
-                },
-                {
-                    "image" : "rawevents/image_create.png"
-                },
-                {
-                    "image" : "rawevents/image_update_compte.png"
-                },
-                {
-                    "image" : "rawevents/image_update_compte_2.png"
+                    "image" : "appdev/image_update_student.png"
                 }
                 
             ]
