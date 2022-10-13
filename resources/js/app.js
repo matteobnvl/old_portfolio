@@ -84,6 +84,59 @@ images.forEach(image => {
 })
 
 
+const box = document.querySelectorAll(".box-service")
+function BoxIntersect(entries){
+
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.style.opacity = 1;
+            entry.target.className = "box-service tracking-in-contract-bck-bottom"
+        }
+    })
+}
+const observer_box = new IntersectionObserver(BoxIntersect, options)
+
+box.forEach(box => {
+    observer_box.observe(box)
+})
+
+const boxAttr = document.querySelectorAll(".box-attr")
+function BoxAttrIntersect(entries){
+
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.style.opacity = 1;
+            entry.target.className = "box-attr roll-in-blurred-left"
+        }
+    })
+}
+const observer_boxAttr = new IntersectionObserver(BoxAttrIntersect, options)
+
+boxAttr.forEach(box => {
+    observer_boxAttr.observe(box)
+})
+
+
+
+
+
+const boxPrst = document.querySelectorAll(".presentation-text-right")
+function textPrstIntersect(entries){
+
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.style.opacity = 1;
+            entry.target.className = "presentation-text-right slide-in-right";
+        }
+    })
+}
+const observer_textPrst = new IntersectionObserver(textPrstIntersect, options)
+
+boxPrst.forEach(box => {
+    observer_textPrst.observe(box)
+})
+
+
 /* js Detail.php */
 
 /* script carousel */
@@ -114,3 +167,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+
+/* js profil */

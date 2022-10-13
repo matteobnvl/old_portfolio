@@ -14,11 +14,12 @@ class DetailController extends Controller
 
         foreach ($data_json['projet'] as $projet) {
             if ($_GET['projet'] == $projet['title']){
-                $data_projet = $projet; 
+                $data_projet = $projet;
+                $pages = "Work";
             }
         }
         //return view('pages.home', ['users' => $users]);
-        return view('pages.detail', compact('data_projet'));
+        return view('pages.detail', compact('data_projet', 'pages'));
 
     }
 }
