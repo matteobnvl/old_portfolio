@@ -110,7 +110,7 @@
             "title" : "Tesma Bot",
             "date" : "Septembre 2022",
             "description" : "Workshop 2022, le sujet était de mettre en place une solution pour détecter les FakesNews. Ici la one page de présentation du Bot détecteur des intox/infox.",
-            "github" : "",
+            "github" : "https://github.com/TheoPerson/WORKSHOP-GROUPE-6-2022-2023",
             "url" : "https://matteodevepsi.pythonanywhere.com/",
             "langage" : [
                 {

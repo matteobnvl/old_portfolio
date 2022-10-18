@@ -22,10 +22,10 @@
                         </a>
                     </div>
                     <div class="reseaux">
-                        <a href="https://www.instagram.com/matteo_bnvl/"><i style="margin-right: 10px;" class="fab fa-instagram"></i>Instagram</a>
-                        <a href="https://www.linkedin.com/in/matteo-bonneval-04080022a/"><i style="margin-right: 10px;" class="fab fa-linkedin"></i>Linkedin</a>
-                        <a href=""><i style="margin-right: 10px;" class="fab fa-github"></i>Github</a>
-                        <a href="">Malt</a>
+                        <div><a href="https://www.instagram.com/matteo_bnvl/"><i style="margin-right: 10px;" class="fab fa-instagram"></i>Instagram</a></div>
+                        <div><a href="https://www.linkedin.com/in/matteo-bonneval-04080022a/"><i style="margin-right: 10px;" class="fab fa-linkedin"></i>Linkedin</a></div>
+                        <div><a href=""><i style="margin-right: 10px;" class="fab fa-github"></i>Github</a></div>
+                        <div><a href="">Malt</a></div>
                     </div>
                 </nav>
             </div>

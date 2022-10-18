@@ -1,7 +1,7 @@
 <?php
 
 if (isset($_POST['code'])) {
-  if ($_POST['code'] == 'justine') {
+  if ($_POST['code'] == '') {
     ?>
     <section class="secret">
 <canvas id="canvas"></canvas>

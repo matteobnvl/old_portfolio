@@ -137,36 +137,43 @@ boxPrst.forEach(box => {
 })
 
 
-/* js Detail.php */
+const boxImg = document.querySelectorAll(".presentation-image")
+function textImgIntersect(entries){
+
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.style.opacity = 0.8;
+            entry.target.className = "presentation-image slide-in-left";
+        }
+    })
+}
+const observer_imgPrst = new IntersectionObserver(textImgIntersect, options)
+
+boxImg.forEach(box => {
+    observer_imgPrst.observe(box)
+})
+
+
+/* js profl.php */
+
+
+  
+var typed = new Typed('.element', {
+  strings: [
+    'étudiant en Concepteur Intégrateur DevOps à ESPI Bordeaux',
+    'passionné par le développement web : site Web / Application Web',
+    'réalisation de nombreux projet dont ce site web',
+    'toujours sérieux dans mon travail est appliqué dans mon travail',
+    "à l'écoute de toute offre pour agrandir mes compétences et mon expérience"],
+
+  typeSpeed: 50,
+  backSpeed: 25,
+  loop: true
+});
+
 
 /* script carousel */
 
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
 
 
 

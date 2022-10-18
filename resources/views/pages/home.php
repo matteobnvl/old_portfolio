@@ -30,9 +30,7 @@
 
 <section class="page1">
         <div class="contain-page1">
-            <div class="presentation-image">
-
-            </div>
+            <div class="presentation-image"></div>
 
             <div class="presentation-text-right">
                 <p>
@@ -67,10 +65,10 @@
                 </div>
                 <div class="information">
                     <div>
-                        <a href="#">
+                        <a href="public/pdf/BONNEVAL_MATTEO_CV.pdf" target="_blank">
                             <button>
                                 <i class="fa-solid fa-download"></i>
-                                télécharger mon cv
+                                voir mon cv
                             </button>
                         </a>
                     </div>
