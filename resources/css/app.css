@@ -2614,9 +2614,9 @@ img {vertical-align: middle;}
 	
 	
 	.contain-computer-image img{
-		width: 50%;
-		bottom: 8%;
-		left: 6%;
+		width: 100%;
+		bottom: 10%;
+		left: 0%;
 	}
 	.transparent{
 		top: 50%;
@@ -2642,7 +2642,7 @@ img {vertical-align: middle;}
 		width: 950px;
 	}
 	.contain-box-attr {
-		width: 1200px;
+		width: 900px;
 		padding-bottom: 40px;
 	}
 
@@ -2659,6 +2659,10 @@ img {vertical-align: middle;}
 		width: 80px;
 		top: 0%;
 		height: 10vh;
+	}
+
+	footer a{
+		text-align: center;
 	}
 
 	.navigation .logo{
