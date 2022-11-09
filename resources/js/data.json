@@ -3,7 +3,7 @@
         {
             "title" : "RawEvents",
             "date" : "Novembre 2021",
-            "description" : "Premier projet de ma première année à epsi. Il s'agissait de développer une AppWeb qui permet de gérer des évènements de soirées, festival, ... Avec en bonus un site vitrine qui montre tous les évènements proposés par le site.",
+            "description" : "Premier projet de ma première année à EPSI. Il s'agissait de développer une AppWeb qui devait permettre de gérer des évènements de soirées, festival, ... Avec en bonus un site vitrine qui devait montrer tous les évènements proposés par le site.",
             "github" : "",
             "url" : "",
             "langage" : [
@@ -64,7 +64,7 @@
             "id" : "2",
             "title" : "V-Tuber Game",
             "date" : "Année 2021-2022",
-            "description" : "Projet Open Innov 2021-2022, ici il s'agit d'une application web qui permet d'incarner un V-Tuber, on peut jouer avec mais aussi le personnaliser. Le projet n'a été réalisé seulement à moitié.",
+            "description" : "Projet Open Innov 2021-2022. Ici il s'agit d'une application web qui permet d'incarner un V-Tuber. On peut jouer avec mais aussi le personnaliser. Le projet n'a été réalisé seulement à moitié.",
             "github" : "",
             "url" : "",
             "langage" : [
@@ -109,7 +109,7 @@
         {
             "title" : "Tesma Bot",
             "date" : "Septembre 2022",
-            "description" : "Workshop 2022, le sujet était de mettre en place une solution pour détecter les FakesNews. Ici la one page de présentation du Bot détecteur des intox/infox.",
+            "description" : "Workshop 2022. Le sujet était de mettre en place une solution pour détecter les Fake News. J'ai donc réalisé la one page de présentation du Bot détecteur des intox/infox.",
             "github" : "https://github.com/TheoPerson/WORKSHOP-GROUPE-6-2022-2023",
             "url" : "https://matteodevepsi.pythonanywhere.com/",
             "langage" : [
@@ -136,7 +136,7 @@
         {
             "title" : "Les tableaux de nadine et alain",
             "date" : "Aout 2022",
-            "description" : "Application web de présentation de tableaux, avec une partie back-end du site pour pouvoir ajouter, modifier ou supprimer les tableaux sur le site.",
+            "description" : "Application web de présentation de tableaux avec une partie back-end pour pouvoir ajouter, modifier ou supprimer les tableaux sur le site.",
             "github" : "",
             "url" : "http://testpythondjango.pythonanywhere.com",
             "langage" : [
@@ -185,7 +185,7 @@
         {
             "title" : "Application de gestion",
             "date" : "juin 2022",
-            "description" : "Dernier projet de ma première année à EPSI. On devait réaliser une application, avec le framework django, de gestion de profil, d'étudiants ou de d'utilisateur. On a réalisé une app qui permet d'ajouter, de modifier ou supprimer des élèves, avec un système de classe et de niveaux",
+            "description" : "Dernier projet de ma première année à EPSI. Le sujet consistait à réaliser une application, avec le framework django, de gestion de profil, d'étudiants ou de d'utilisateur. On a réalisé une app qui permet d'ajouter, de modifier ou supprimer des élèves, avec un système de classe et de niveaux.",
             "github" : "",
             "url" : "",
             "langage" : [

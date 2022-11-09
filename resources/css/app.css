@@ -504,7 +504,7 @@ div{
 .presentation-image{
 	width: 350px;
 	height: 400px;
-	background-image: url('/portfolio/public/images/portrait_cv-removebg-preview.png');
+	background-image: url('/public/images/portrait_cv-removebg-preview.png');
 	background-position: center;
 	background-size: cover;
 	transform: scale(0.9);
@@ -807,7 +807,7 @@ div{
 .contain-solution{
 	width: 100%;
 	height: auto;
-	background-image: url('/portfolio/public/images/home_office.jpg');
+	background-image: url('/public/images/home_office.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -891,6 +891,7 @@ div{
 	transition: all .3s;
 	text-align: center;
 	opacity: 0;
+	padding:20px;
 }
 
 .roll-in-blurred-left {
@@ -976,9 +977,9 @@ div{
 	color: white;
 	text-align: center;
 	width: 100%;
-	margin-top: 40px;
 	font-size: 1.4em;
 	font-weight: bold;
+	padding-bottom:50px;
 }
 
 
@@ -987,7 +988,7 @@ div{
 .transition{
 	width: 100%;
 	height: 60vh;
-	background-image: url('/portfolio/public/images/Website-Design-Background.webp');
+	background-image: url('/public/images/Website-Design-Background.webp');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -2228,11 +2229,11 @@ footer a{
 }
 
 .part1{
-	background-image: url('/portfolio/public/images/coding-gbe380cb9f_1920.jpg');
+	background-image: url('/public/images/coding-gbe380cb9f_1920.jpg');
 }
 
 .part2{
-	background-image: url('/portfolio/public/images/desk-g78f1c40b6_1920.jpg');
+	background-image: url('/public/images/desk-g78f1c40b6_1920.jpg');
 }
 
 
@@ -2605,6 +2606,13 @@ img {vertical-align: middle;}
 		width: 90%;
 		font-size: 1.15em;
 	}
+	
+	.contain-computer-image{
+	    width:100%;
+	}
+	
+	
+	
 	.contain-computer-image img{
 		width: 50%;
 		bottom: 8%;
@@ -2634,7 +2642,7 @@ img {vertical-align: middle;}
 		width: 950px;
 	}
 	.contain-box-attr {
-		width: 775px;
+		width: 1200px;
 		padding-bottom: 40px;
 	}
 

@@ -162,11 +162,11 @@ var typed = new Typed('.element', {
   strings: [
     'étudiant en Concepteur Intégrateur DevOps à ESPI Bordeaux',
     'passionné par le développement web : site Web / Application Web',
-    'réalisation de nombreux projet dont ce site web',
-    'toujours sérieux dans mon travail est appliqué dans mon travail',
-    "à l'écoute de toute offre pour agrandir mes compétences et mon expérience"],
+    'réalisation de nombreux projets dont ce site web',
+    'toujours sérieux dans mon travail et appliqué dans mon travail',
+    "à l'écoute de toutes offres pour agrandir mes compétences et mon expérience"],
 
-  typeSpeed: 50,
+  typeSpeed: 60,
   backSpeed: 25,
   loop: true
 });

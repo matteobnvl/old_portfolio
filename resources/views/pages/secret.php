@@ -9,7 +9,7 @@ if (isset($_POST['code'])) {
 <?php 
   }else{
     ?>
-    <form method="POST">
+    <form style="margin-top:45vh;" method="POST">
       <label for="code">Entrer code</label><br>
   <input type="password" name="code" id="code">
   <input type="submit" name="button">
@@ -18,7 +18,7 @@ if (isset($_POST['code'])) {
   }
   }else{
     ?>
-    <form method="POST">
+    <form style="margin-top:45vh;" method="POST">
       <label for="code">Entrer code</label><br>
   <input type="password" name="code" id="code">
   <input type="submit" name="button">

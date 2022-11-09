@@ -169,7 +169,7 @@
 <section class="contain-solution">
     <div class="title">
         <h2>
-            <span>Pourquoi</span> <span>crééer</span><br><span>votre</span> <span>site ?</span>
+            <span>Pourquoi</span> <span>créer</span><br><span>votre</span> <span>site ?</span>
         </h2>
     </div>
     <div class="over-scroll">
