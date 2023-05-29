@@ -1,7 +1,7 @@
 <section class="accueil">
-
-        <section id="bienvenue" class="contain-bienvenue">
-            <a id="titre" href="<?=route('Secret')?>"><h1>
+    <section id="bienvenue" class="contain-bienvenue">
+        <a id="titre" href="<?=route('Secret')?>">
+            <h1>
                 <span>B</span>
                 <span>I</span>
                 <span>E</span>
@@ -11,22 +11,23 @@
                 <span>N</span>
                 <span>U</span>
                 <span>E</span>
-            </h1></a>
-            <div id="ligne" class="ligne"></div>
-        
-        </section>
-
-        <div id="btn" class="scroller">
-            <div class="explorer">
-                <p>explorer</p>
-                <img src="public/images/keyboard_arrow_down_white_24dp.svg">
-            </div>
-            <div class="barre">
-                <span></span>
-            </div>
-        </div>
-        
+            </h1>
+        </a>
+        <div id="ligne" class="ligne"></div>
+    
     </section>
+
+    <div id="btn" class="scroller">
+        <div class="explorer">
+            <p>explorer</p>
+            <img src="public/images/keyboard_arrow_down_white_24dp.svg">
+        </div>
+        <div class="barre">
+            <span></span>
+        </div>
+    </div>
+        
+</section>
 
 <section class="page1">
         <div class="contain-page1">
@@ -83,7 +84,6 @@
                 </div>
             </div>
         </div>
-
 </section>
 <section class="transition">
     <h2>développement web responsive</h2>

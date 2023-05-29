@@ -22,7 +22,7 @@
                 ?>
         </div>
         <div id="slideshow1" class="slideshow-container">
-             <?php 
+            <?php 
                 foreach($data_projet['image'] as $data){
                 ?>
                     <div class="mySlides fade">
